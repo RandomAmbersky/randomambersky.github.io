@@ -9,6 +9,6 @@ title: Подключение к внешней БД Postgres из Docker
 
 Меняем параметр коннекта в `connection.env` :
 
-```
+```bash
 DATABASE_CONNECTION_URI=postgres://postgres@host.docker.internal/maskeddata
 ```
